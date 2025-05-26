@@ -167,24 +167,10 @@ def validation_workflow(xml_input):
 
 ## Usage Examples
 
-### Basic Usage
+### Usage
 ```python
-mindmap_generator = MindmapSystem()
-result = mindmap_generator.generate(
-    prompt="Create a mindmap for project management methodology including agile, waterfall, and hybrid approaches"
-)
-```
-
-### Advanced Configuration
-```python
-config = {
-    "layout_type": "hierarchical",
-    "max_depth": 5,
-    "validation_strictness": "high",
-    "output_format": "svg_compatible"
-}
-
-result = mindmap_generator.generate(prompt, config)
+pip install -r requirements.txt
+python run_server.py
 ```
 
 ## Deployment Considerations
