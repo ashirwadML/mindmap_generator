@@ -172,32 +172,3 @@ def validation_workflow(xml_input):
 pip install -r requirements.txt
 python run_server.py
 ```
-
-## Deployment Considerations
-
-### Infrastructure Requirements
-- **Anthropic API access** with sufficient token limits
-- **Redis cache** for agent communication and caching
-- **PostgreSQL database** for audit logging and analytics
-- **Load balancer** for horizontal agent scaling
-
-### Monitoring & Observability
-- **Agent performance metrics**
-- **Pipeline latency tracking**
-- **Error rate monitoring**
-- **Output quality analytics**
-
-## Future Enhancements
-
-### Planned Features
-- **Interactive mindmap editing**: Iterative refinement through user feedback
-- **Multi-format export**: SVG, PNG, PDF output options
-- **Collaborative mindmaps**: Multi-user editing capabilities
-- **Template library**: Pre-built mindmap templates
-- **AI-powered suggestions**: Intelligent concept expansion
-
-### Research Directions
-- **Advanced layout algorithms**: ML-based spatial optimization
-- **Cross-modal understanding**: Image and text input integration
-- **Domain-specific agents**: Specialized agents for technical domains
-- **Federated learning**: Continuous improvement through usage patterns
